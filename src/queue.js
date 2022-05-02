@@ -38,7 +38,6 @@ class Queue {
 			current.next = new Node(value);
 		}
 		this.length++;
-		return this;
 	}		
 	dequeue() {
 		let current;
